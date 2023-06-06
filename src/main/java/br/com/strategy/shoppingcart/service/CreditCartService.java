@@ -9,14 +9,9 @@ import java.math.BigDecimal;
 @Log4j2
 @Service
 public class CreditCartService implements PaymentStrategy {
-    private CreditCartEntity creditCartEntity;
 
     @Override
     public void pay(BigDecimal amount) {
-         creditCartEntity = new CreditCartEntity();
-
-        log.info("Usuario cadastrato: "+ creditCartEntity.getName());
-
         log.info(amount +" paid with credit/debit card");
     }
 }

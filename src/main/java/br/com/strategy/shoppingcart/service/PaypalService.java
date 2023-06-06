@@ -11,12 +11,9 @@ import java.math.BigDecimal;
 public class PaypalService implements PaymentStrategy {
 
     private PaypalEntity paypalEntity;
+
     @Override
     public void pay(BigDecimal amount) {
-        paypalEntity = new PaypalEntity();
-
-        log.info("Email cadastrato: "+ paypalEntity.getEmail());
-
         log.info(amount + " paid using Paypal.");
     }
 }

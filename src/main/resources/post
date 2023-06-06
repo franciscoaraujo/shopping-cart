@@ -1,0 +1,28 @@
+{
+    "itensDTO": [
+        {
+            "idItem": 1,
+            "price": 250.00
+        },
+        {
+            "idItem": 2,
+            "price": 500.00
+        },
+        {
+            "idItem": 3,
+            "price": 845.00
+        }
+    ]
+}
+
+{
+    "name":"Fulano de Araujo",
+    "cardNumber":"123456789",
+    "cvv":"458",
+    "dateOfExpiry":"2030-04-05"
+}
+
+{
+    "emailId":"fulano@gmail.com",
+    "password":"1549872"
+}
